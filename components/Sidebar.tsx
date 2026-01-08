@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, TrendingUp, Activity, Settings } from "lucide-react";
+import { BarChart3, TrendingUp, Activity, Settings, Sparkles, SlidersHorizontal } from "lucide-react";
 
 export default function Sidebar() {
   const pathname = usePathname();
 
   const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: BarChart3 },
-    { name: "Personalization", href: "/shop-prototype", icon: TrendingUp },
-    { name: "Forecast", href: "/dashboard#forecast", icon: Activity },
+    { name: "Onboarding", href: "/onboarding/welcome", icon: Sparkles },
+    { name: "Personalization", href: "/shop-prototype", icon: SlidersHorizontal },
     { name: "Settings", href: "/settings", icon: Settings },
   ];
 
