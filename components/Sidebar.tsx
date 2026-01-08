@@ -9,7 +9,7 @@ export default function Sidebar() {
 
   const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: BarChart3 },
-    { name: "Retention", href: "/dashboard#retention", icon: TrendingUp },
+    { name: "Personalization", href: "/shop-prototype", icon: TrendingUp },
     { name: "Forecast", href: "/dashboard#forecast", icon: Activity },
     { name: "Settings", href: "/settings", icon: Settings },
   ];
